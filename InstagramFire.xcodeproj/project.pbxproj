@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A024D5FD2F87FA8000D25868 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A024D5FC2F87FA8000D25868 /* Extensions.swift */; };
 		A0DD88732F86C5110046FBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD88722F86C5110046FBA8 /* AppDelegate.swift */; };
 		A0DD88752F86C5110046FBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD88742F86C5110046FBA8 /* SceneDelegate.swift */; };
 		A0DD88772F86C5110046FBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD88762F86C5110046FBA8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A024D5FC2F87FA8000D25868 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A0DD886F2F86C5110046FBA8 /* InstagramFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DD88722F86C5110046FBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DD88742F86C5110046FBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A024D5FB2F87FA5700D25868 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A024D5FC2F87FA8000D25868 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A0DD88662F86C5110046FBA8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		A0DD88712F86C5110046FBA8 /* InstagramFire */ = {
 			isa = PBXGroup;
 			children = (
+				A024D5FB2F87FA5700D25868 /* Utils */,
 				A0DD88722F86C5110046FBA8 /* AppDelegate.swift */,
 				A0DD88742F86C5110046FBA8 /* SceneDelegate.swift */,
 				A0DD88762F86C5110046FBA8 /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				A0DD88772F86C5110046FBA8 /* ViewController.swift in Sources */,
 				A0DD88732F86C5110046FBA8 /* AppDelegate.swift in Sources */,
 				A0DD88752F86C5110046FBA8 /* SceneDelegate.swift in Sources */,
+				A024D5FD2F87FA8000D25868 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
