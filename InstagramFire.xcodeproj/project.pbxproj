@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A006D7D22F8843AD0074A399 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A006D7D12F8843AD0074A399 /* GoogleService-Info.plist */; };
 		A024D5FD2F87FA8000D25868 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A024D5FC2F87FA8000D25868 /* Extensions.swift */; };
+		A098518A2F9E36650094D248 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09851892F9E36650094D248 /* MainTabBarController.swift */; };
+		A098518C2F9E3A250094D248 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098518B2F9E3A250094D248 /* UserProfileController.swift */; };
 		A0DD88732F86C5110046FBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD88722F86C5110046FBA8 /* AppDelegate.swift */; };
 		A0DD88752F86C5110046FBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD88742F86C5110046FBA8 /* SceneDelegate.swift */; };
 		A0DD88772F86C5110046FBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD88762F86C5110046FBA8 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		605B3E00326A7C2B20BE70D4 /* Pods-InstagramFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFire.release.xcconfig"; path = "Target Support Files/Pods-InstagramFire/Pods-InstagramFire.release.xcconfig"; sourceTree = "<group>"; };
 		A006D7D12F8843AD0074A399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A024D5FC2F87FA8000D25868 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A09851892F9E36650094D248 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A098518B2F9E3A250094D248 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
 		A0DD886F2F86C5110046FBA8 /* InstagramFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DD88722F86C5110046FBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0DD88742F86C5110046FBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +56,6 @@
 				D774BC1D2D4FB80D4003AF5C /* Pods-InstagramFire.debug.xcconfig */,
 				605B3E00326A7C2B20BE70D4 /* Pods-InstagramFire.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -97,6 +100,8 @@
 				A0DD88722F86C5110046FBA8 /* AppDelegate.swift */,
 				A0DD88742F86C5110046FBA8 /* SceneDelegate.swift */,
 				A0DD88762F86C5110046FBA8 /* ViewController.swift */,
+				A09851892F9E36650094D248 /* MainTabBarController.swift */,
+				A098518B2F9E3A250094D248 /* UserProfileController.swift */,
 				A0DD88782F86C5110046FBA8 /* Main.storyboard */,
 				A0DD887B2F86C5130046FBA8 /* Assets.xcassets */,
 				A0DD887D2F86C5130046FBA8 /* LaunchScreen.storyboard */,
@@ -224,6 +229,8 @@
 			files = (
 				A0DD88772F86C5110046FBA8 /* ViewController.swift in Sources */,
 				A0DD88732F86C5110046FBA8 /* AppDelegate.swift in Sources */,
+				A098518C2F9E3A250094D248 /* UserProfileController.swift in Sources */,
+				A098518A2F9E36650094D248 /* MainTabBarController.swift in Sources */,
 				A0DD88752F86C5110046FBA8 /* SceneDelegate.swift in Sources */,
 				A024D5FD2F87FA8000D25868 /* Extensions.swift in Sources */,
 			);
@@ -378,7 +385,7 @@
 				INFOPLIST_FILE = InstagramFire/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -408,7 +415,7 @@
 				INFOPLIST_FILE = InstagramFire/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
